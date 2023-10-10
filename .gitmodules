@@ -4,3 +4,7 @@
 [submodule "back"]
 	path = back
 	url = https://github.com/mdhif/portfolio-backend
+
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/mdhif/portfolio-nginx.git
