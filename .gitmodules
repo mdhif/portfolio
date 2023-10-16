@@ -7,4 +7,7 @@
 
 [submodule "nginx"]
 	path = nginx
-	url = https://github.com/mdhif/portfolio-nginx.git
+	url = https://github.com/mdhif/portfolio-nginx.git                                               
+[submodule "aws-scripts"]
+	path = aws-scripts
+	url = https://github.com/mdhif/portfolio-aws.git
