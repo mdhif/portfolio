@@ -6,12 +6,16 @@ services:
       context: ./front
     ports:
       - "3000:3000"
+    volumes:
+      - ./front:/app/
 
   back:
     build:
       context: ./back
     ports:
       - "8080:8080"
+    volumes:
+      - ./back:/app/
   nginx:
     build:
       context: ./nginx
